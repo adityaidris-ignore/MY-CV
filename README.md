@@ -152,7 +152,7 @@
              alt="Foto profil"
              class="foto">
 
-        <h1>Nama Lengkap Kamu</h1>
+        <h1>ADITYA IDRIS</h1>
         <p class="profesi">Pelajar | Gamer | Pecinta Anime</p>
 
         <p class="kontak">
