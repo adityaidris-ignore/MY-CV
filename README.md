@@ -151,7 +151,7 @@
         <img src="yinix.jpg"
              alt="Foto profil"
              class="foto">
-
+             
         <h1>Aditya Idris</h1>
         <p class="profesi">Pelajar | Gamer | Pecinta Anime</p>
 
