@@ -152,7 +152,7 @@
              alt="Foto profil"
              class="foto">
 
-        <h1>ADITYA IDRIS</h1>
+        <h1>Aditya Idris</h1>
         <p class="profesi">Pelajar | Gamer | Pecinta Anime</p>
 
         <p class="kontak">
