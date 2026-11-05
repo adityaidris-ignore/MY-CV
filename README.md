@@ -1,1 +1,280 @@
 # MY-CV
+
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Pribadi</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: #eee;
+            line-height: 1.7;
+            padding: 25px 12px;
+        }
+
+        .cv {
+            max-width: 850px;
+            margin: auto;
+            background: #1b1b1b;
+            border: 1px solid #333;
+            border-radius: 18px;
+            overflow: hidden;
+        }
+
+        header {
+            background: #252525;
+            padding: 35px 25px;
+            text-align: center;
+            border-bottom: 1px solid #444;
+        }
+
+        .foto {
+            width: 125px;
+            height: 125px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #888;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 30px;
+            color: #fff;
+        }
+
+        .profesi {
+            color: #aaa;
+            margin-top: 5px;
+        }
+
+        .kontak {
+            color: #bbb;
+            font-size: 13px;
+            margin-top: 15px;
+        }
+
+        main {
+            padding: 25px;
+        }
+
+        section {
+            margin-bottom: 28px;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #ddd;
+            border-bottom: 1px solid #555;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+
+        .item {
+            background: #252525;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 12px;
+        }
+
+        .item h3 {
+            font-size: 15px;
+            color: #fff;
+            margin-bottom: 4px;
+        }
+
+        .item p {
+            color: #bbb;
+            font-size: 14px;
+        }
+
+        .label {
+            color: #999;
+            font-size: 12px;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #333;
+            color: #ddd;
+            padding: 6px 12px;
+            border-radius: 20px;
+            margin: 4px;
+            font-size: 13px;
+        }
+
+        .musik {
+            background: #252525;
+            padding: 18px;
+            border-radius: 12px;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 12px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+            font-size: 12px;
+            border-top: 1px solid #333;
+        }
+
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 25px;
+            }
+
+            main {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="cv">
+
+    <header>
+        <!-- Ganti profile.jpg dengan foto kamu -->
+        <img src="yinix.jpg"
+             alt="Foto profil"
+             class="foto">
+
+        <h1>Nama Lengkap Kamu</h1>
+        <p class="profesi">Pelajar | Gamer | Pecinta Anime</p>
+
+        <p class="kontak">
+            Kota, Indonesia<br>
+            adityaidris535@gmail.com
+        </p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>👤 Tentang Saya</h2>
+            <p>
+                Halo! Saya adalah seorang pelajar yang memiliki
+                minat dalam dunia teknologi, gaming, dan anime.
+                Saya senang mempelajari hal baru, bekerja sama,
+                serta mengembangkan kemampuan diri.
+            </p>
+        </section>
+
+        <section>
+            <h2>📋 Data Diri</h2>
+
+            <div class="item">
+                <h3>Nama Lengkap</h3>
+                <p>Aditya idris</p>
+            </div>
+
+            <div class="item">
+                <h3>Tanggal Lahir</h3>
+                <p>24 MEI 2009</p>
+            </div>
+
+            <div class="item">
+                <h3>Jenis Kelamin</h3>
+                <p>LAKI LAKI</p>
+            </div>
+
+            <div class="item">
+                <h3>Alamat</h3>
+                <p>SIPOLU POLU</p>
+            </div>
+
+            <div class="item">
+                <h3>Agama</h3>
+                <p>Islam</p>
+            </div>
+
+            <div class="item">
+                <h3>Kewarganegaraan</h3>
+                <p>Indonesia</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>🎓 Pendidikan</h2>
+
+            <div class="item">
+                <h3>Nama Sekolah</h3>
+                <p>SMKN 2 PANYABUNGAN</p>
+            </div>
+
+            <div class="item">
+                <h3>Kelas</h3>
+                <p>XII TKJ²</p>
+            </div>
+
+            <div class="item">
+                <h3>Jurusan</h3>
+                <p>Teknik Komputer dan Jaringan </p>
+            </div>
+        </section>
+
+        <section>
+            <h2>🎮 Hobi dan Minat</h2>
+
+            <span class="tag">Gaming</span>
+            <span class="tag">Anime</span>
+            <span class="tag">Mobile Legends</span>
+            <span class="tag">Teknologi</span>
+        </section>
+
+        <section>
+            <h2>💻 Kemampuan</h2>
+
+            <div class="item">
+                <h3>Komputer</h3>
+                <p>Penggunaan komputer dan internet</p>
+            </div>
+
+            <div class="item">
+                <h3>HTML dan CSS</h3>
+                <p>Dasar pembuatan website</p>
+            </div>
+
+            <div class="item">
+                <h3>Kerja Sama</h3>
+                <p>Mampu bekerja dalam tim dan belajar bersama</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>🎵 Musik Favorit</h2>
+
+            <div class="musik">
+                <p>Putar musik sambil melihat CV saya.</p>
+
+                <!-- Simpan lagu.mp3 di folder yang sama -->
+                <audio controls preload="none">
+                    <source src="18.mp3" type="audio/mpeg">
+                    Browser kamu tidak mendukung pemutar musik.
+                </audio>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        CV Pribadi • Dibuat dengan HTML dan CSS
+    </footer>
+
+</div>
+
+</body>
+</html>
